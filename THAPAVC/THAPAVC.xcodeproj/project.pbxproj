@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9C4FB6F2330BA7C00821EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C4FB6E2330BA7C00821EF9 /* AppDelegate.swift */; };
+		F9C4FB712330BA7C00821EF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C4FB702330BA7C00821EF9 /* ViewController.swift */; };
+		F9C4FB742330BA7C00821EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C4FB722330BA7C00821EF9 /* Main.storyboard */; };
+		F9C4FB762330BA7E00821EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C4FB752330BA7E00821EF9 /* Assets.xcassets */; };
+		F9C4FB792330BA7E00821EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C4FB772330BA7E00821EF9 /* LaunchScreen.storyboard */; };
+		F9C4FB842330BA7E00821EF9 /* THAPAVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C4FB832330BA7E00821EF9 /* THAPAVCTests.swift */; };
+		F9C4FB8F2330BA7E00821EF9 /* THAPAVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C4FB8E2330BA7E00821EF9 /* THAPAVCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9C4FB802330BA7E00821EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C4FB632330BA7C00821EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C4FB6A2330BA7C00821EF9;
+			remoteInfo = THAPAVC;
+		};
+		F9C4FB8B2330BA7E00821EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C4FB632330BA7C00821EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C4FB6A2330BA7C00821EF9;
+			remoteInfo = THAPAVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9C4FB6B2330BA7C00821EF9 /* THAPAVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THAPAVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C4FB6E2330BA7C00821EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9C4FB702330BA7C00821EF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9C4FB732330BA7C00821EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9C4FB752330BA7E00821EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9C4FB782330BA7E00821EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9C4FB7A2330BA7E00821EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C4FB7F2330BA7E00821EF9 /* THAPAVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THAPAVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C4FB832330BA7E00821EF9 /* THAPAVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THAPAVCTests.swift; sourceTree = "<group>"; };
+		F9C4FB852330BA7E00821EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C4FB8A2330BA7E00821EF9 /* THAPAVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THAPAVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C4FB8E2330BA7E00821EF9 /* THAPAVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THAPAVCUITests.swift; sourceTree = "<group>"; };
+		F9C4FB902330BA7E00821EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9C4FB682330BA7C00821EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C4FB7C2330BA7E00821EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C4FB872330BA7E00821EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9C4FB622330BA7C00821EF9 = {
+			isa = PBXGroup;
+			children = (
+				F9C4FB6D2330BA7C00821EF9 /* THAPAVC */,
+				F9C4FB822330BA7E00821EF9 /* THAPAVCTests */,
+				F9C4FB8D2330BA7E00821EF9 /* THAPAVCUITests */,
+				F9C4FB6C2330BA7C00821EF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C4FB6C2330BA7C00821EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9C4FB6B2330BA7C00821EF9 /* THAPAVC.app */,
+				F9C4FB7F2330BA7E00821EF9 /* THAPAVCTests.xctest */,
+				F9C4FB8A2330BA7E00821EF9 /* THAPAVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C4FB6D2330BA7C00821EF9 /* THAPAVC */ = {
+			isa = PBXGroup;
+			children = (
+				F9C4FB6E2330BA7C00821EF9 /* AppDelegate.swift */,
+				F9C4FB702330BA7C00821EF9 /* ViewController.swift */,
+				F9C4FB722330BA7C00821EF9 /* Main.storyboard */,
+				F9C4FB752330BA7E00821EF9 /* Assets.xcassets */,
+				F9C4FB772330BA7E00821EF9 /* LaunchScreen.storyboard */,
+				F9C4FB7A2330BA7E00821EF9 /* Info.plist */,
+			);
+			path = THAPAVC;
+			sourceTree = "<group>";
+		};
+		F9C4FB822330BA7E00821EF9 /* THAPAVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9C4FB832330BA7E00821EF9 /* THAPAVCTests.swift */,
+				F9C4FB852330BA7E00821EF9 /* Info.plist */,
+			);
+			path = THAPAVCTests;
+			sourceTree = "<group>";
+		};
+		F9C4FB8D2330BA7E00821EF9 /* THAPAVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9C4FB8E2330BA7E00821EF9 /* THAPAVCUITests.swift */,
+				F9C4FB902330BA7E00821EF9 /* Info.plist */,
+			);
+			path = THAPAVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9C4FB6A2330BA7C00821EF9 /* THAPAVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C4FB932330BA7E00821EF9 /* Build configuration list for PBXNativeTarget "THAPAVC" */;
+			buildPhases = (
+				F9C4FB672330BA7C00821EF9 /* Sources */,
+				F9C4FB682330BA7C00821EF9 /* Frameworks */,
+				F9C4FB692330BA7C00821EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THAPAVC;
+			productName = THAPAVC;
+			productReference = F9C4FB6B2330BA7C00821EF9 /* THAPAVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9C4FB7E2330BA7E00821EF9 /* THAPAVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C4FB962330BA7E00821EF9 /* Build configuration list for PBXNativeTarget "THAPAVCTests" */;
+			buildPhases = (
+				F9C4FB7B2330BA7E00821EF9 /* Sources */,
+				F9C4FB7C2330BA7E00821EF9 /* Frameworks */,
+				F9C4FB7D2330BA7E00821EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C4FB812330BA7E00821EF9 /* PBXTargetDependency */,
+			);
+			name = THAPAVCTests;
+			productName = THAPAVCTests;
+			productReference = F9C4FB7F2330BA7E00821EF9 /* THAPAVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9C4FB892330BA7E00821EF9 /* THAPAVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C4FB992330BA7E00821EF9 /* Build configuration list for PBXNativeTarget "THAPAVCUITests" */;
+			buildPhases = (
+				F9C4FB862330BA7E00821EF9 /* Sources */,
+				F9C4FB872330BA7E00821EF9 /* Frameworks */,
+				F9C4FB882330BA7E00821EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C4FB8C2330BA7E00821EF9 /* PBXTargetDependency */,
+			);
+			name = THAPAVCUITests;
+			productName = THAPAVCUITests;
+			productReference = F9C4FB8A2330BA7E00821EF9 /* THAPAVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9C4FB632330BA7C00821EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = avesglobe;
+				TargetAttributes = {
+					F9C4FB6A2330BA7C00821EF9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F9C4FB7E2330BA7E00821EF9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F9C4FB6A2330BA7C00821EF9;
+					};
+					F9C4FB892330BA7E00821EF9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F9C4FB6A2330BA7C00821EF9;
+					};
+				};
+			};
+			buildConfigurationList = F9C4FB662330BA7C00821EF9 /* Build configuration list for PBXProject "THAPAVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9C4FB622330BA7C00821EF9;
+			productRefGroup = F9C4FB6C2330BA7C00821EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C4FB6A2330BA7C00821EF9 /* THAPAVC */,
+				F9C4FB7E2330BA7E00821EF9 /* THAPAVCTests */,
+				F9C4FB892330BA7E00821EF9 /* THAPAVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9C4FB692330BA7C00821EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C4FB792330BA7E00821EF9 /* LaunchScreen.storyboard in Resources */,
+				F9C4FB762330BA7E00821EF9 /* Assets.xcassets in Resources */,
+				F9C4FB742330BA7C00821EF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C4FB7D2330BA7E00821EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C4FB882330BA7E00821EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9C4FB672330BA7C00821EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C4FB712330BA7C00821EF9 /* ViewController.swift in Sources */,
+				F9C4FB6F2330BA7C00821EF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C4FB7B2330BA7E00821EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C4FB842330BA7E00821EF9 /* THAPAVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C4FB862330BA7E00821EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C4FB8F2330BA7E00821EF9 /* THAPAVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9C4FB812330BA7E00821EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C4FB6A2330BA7C00821EF9 /* THAPAVC */;
+			targetProxy = F9C4FB802330BA7E00821EF9 /* PBXContainerItemProxy */;
+		};
+		F9C4FB8C2330BA7E00821EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C4FB6A2330BA7C00821EF9 /* THAPAVC */;
+			targetProxy = F9C4FB8B2330BA7E00821EF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9C4FB722330BA7C00821EF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C4FB732330BA7C00821EF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9C4FB772330BA7E00821EF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C4FB782330BA7E00821EF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9C4FB912330BA7E00821EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9C4FB922330BA7E00821EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9C4FB942330BA7E00821EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJXUN2997D;
+				INFOPLIST_FILE = THAPAVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avesglobe.THAPAVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9C4FB952330BA7E00821EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJXUN2997D;
+				INFOPLIST_FILE = THAPAVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avesglobe.THAPAVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9C4FB972330BA7E00821EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJXUN2997D;
+				INFOPLIST_FILE = THAPAVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avesglobe.THAPAVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THAPAVC.app/THAPAVC";
+			};
+			name = Debug;
+		};
+		F9C4FB982330BA7E00821EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJXUN2997D;
+				INFOPLIST_FILE = THAPAVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avesglobe.THAPAVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THAPAVC.app/THAPAVC";
+			};
+			name = Release;
+		};
+		F9C4FB9A2330BA7E00821EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJXUN2997D;
+				INFOPLIST_FILE = THAPAVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avesglobe.THAPAVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THAPAVC;
+			};
+			name = Debug;
+		};
+		F9C4FB9B2330BA7E00821EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJXUN2997D;
+				INFOPLIST_FILE = THAPAVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avesglobe.THAPAVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THAPAVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9C4FB662330BA7C00821EF9 /* Build configuration list for PBXProject "THAPAVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C4FB912330BA7E00821EF9 /* Debug */,
+				F9C4FB922330BA7E00821EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C4FB932330BA7E00821EF9 /* Build configuration list for PBXNativeTarget "THAPAVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C4FB942330BA7E00821EF9 /* Debug */,
+				F9C4FB952330BA7E00821EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C4FB962330BA7E00821EF9 /* Build configuration list for PBXNativeTarget "THAPAVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C4FB972330BA7E00821EF9 /* Debug */,
+				F9C4FB982330BA7E00821EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C4FB992330BA7E00821EF9 /* Build configuration list for PBXNativeTarget "THAPAVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C4FB9A2330BA7E00821EF9 /* Debug */,
+				F9C4FB9B2330BA7E00821EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9C4FB632330BA7C00821EF9 /* Project object */;
+}

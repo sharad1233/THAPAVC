@@ -1,0 +1,24 @@
+//
+//  ViewController.swift
+//  THAPAVC
+//
+//  Created by BlueAves on 17/09/19.
+//  Copyright © 2019 avesglobe. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    func callWeb(){
+        var len : Int = 10
+        print("the length is len\(len)")
+        len = 40
+        print("the new length is len\(len)")
+    }
+}
+
