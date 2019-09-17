@@ -17,8 +17,6 @@ class ViewController: UIViewController {
     func callWeb(){
         var len : Int = 10
         print("the length is len\(len)")
-        len = 40
-        print("the new length is len\(len)")
     }
 }
 
