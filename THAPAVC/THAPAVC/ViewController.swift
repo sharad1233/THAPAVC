@@ -20,5 +20,8 @@ class ViewController: UIViewController {
         len = 40
         print("the new length is len\(len)")
     }
+    func run(){
+        print("the running time is 50")
+    }
 }
 
