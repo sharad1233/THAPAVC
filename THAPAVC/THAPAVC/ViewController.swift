@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     func run(){
         var runningTime : Int = 350
-        print("the run time is 50")
+        print("the run time is 350")
     }
 }
 
