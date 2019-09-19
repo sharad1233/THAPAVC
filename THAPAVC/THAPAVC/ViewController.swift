@@ -15,14 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     func callWeb(){
-        var len : Int = 10
+        var len : Int = 510
         print("the length is len\(len)")
-        len = 40
+        len = 540
         print("the new length is len\(len)")
     }
     func run(){
-        var runningTime : Int = 50
-        print("the running time is 50\(runningTime)")
+        var runningTime : Int = 550
+        print("the running time is 550\(runningTime)")
     }
 }
 
