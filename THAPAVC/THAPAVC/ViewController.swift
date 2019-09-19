@@ -20,9 +20,12 @@ class ViewController: UIViewController {
         len = 540
         print("the new length is len\(len)")
     }
+<<<<<<< HEAD
     func run(){
         var runningTime : Int = 550
         print("the running time is 550\(runningTime)")
     }
+=======
+>>>>>>> parent of f6d494e... change in ViewController(new method run)
 }
 
