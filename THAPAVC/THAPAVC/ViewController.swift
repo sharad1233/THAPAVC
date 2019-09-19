@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         print("the length is len\(len)")
     }
     func run(){
-        var runningTime : Int = 4350
+        var runningTime : Int = 5350
         print("the run time is 350")
     }
 }
