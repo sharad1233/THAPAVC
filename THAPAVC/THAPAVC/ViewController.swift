@@ -15,8 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     func callWeb(){
-        var len : Int = 10
-        print("the length is lenghttttttttt\(len)")
+
+        var len : Int = 310
+        print("the lengthhhhhhhh    is length\(len)")
     }
     func run(){
         var runningTime : Int = 333350
