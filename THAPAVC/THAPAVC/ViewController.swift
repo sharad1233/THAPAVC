@@ -13,15 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("sure")
     }
     func callWeb(){
-
         var len : Int = 310
         print("the lengthhhhhhhh    is length\(len)")
     }
     func run(){
-        var runningTime : Int = 333350
-        print("the run timeeee is 50")
+        var runningTime : Int = 44333350
+        print("the run timeeee is 4450")
     }
 }
 
