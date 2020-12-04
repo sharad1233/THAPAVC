@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("suresdfdsfff")
+        print("greattttttt")
     }
     func callWeb(){
         var len : Int = 310
